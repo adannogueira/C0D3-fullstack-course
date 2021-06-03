@@ -7,9 +7,7 @@
  * @returns {number}
  */
 
-const solution = (func1, func2) => {
-  return func1() + func2()
-}
+const solution = (func1, func2) => func1() + func2()
 
 module.exports = {
   solution
