@@ -5,9 +5,7 @@
  * @returns {boolean}
  */
 
-const solution = (num) => {
-  return true
-}
+const solution = num => num > 5
 
 module.exports = {
   solution
