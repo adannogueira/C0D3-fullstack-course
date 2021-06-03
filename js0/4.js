@@ -6,9 +6,7 @@
  * @returns {number}
  */
 
-const solution = (num1, num2) => {
-  return 0
-}
+const solution = (num1, num2) => num1 > num2 ? num1 : num2
 
 module.exports = {
   solution
