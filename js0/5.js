@@ -8,7 +8,8 @@
  */
 
 const solution = (num1, num2, num3) => {
-  return 0
+  if (num1 > num2 && num1 > num3) return num1
+  return num2 > num3 ? num2 : num3
 }
 
 module.exports = {
