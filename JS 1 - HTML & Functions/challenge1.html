@@ -1,0 +1,17 @@
+<h1>Bem vindo!</h1>
+<h2>JS1</h2>
+<h5>Desafio 1</h5>
+<input class="input1" type="text">
+<input class="input2" type="text">
+<button class="submit1">Enviar</button>
+<hr />
+<script>
+    const inputButton = document.querySelector('.submit1')
+    const firstInput = document.querySelector('.input1')
+    const secondInput = document.querySelector('.input2')
+    inputButton.onclick = () => {
+        const firstInputValue = +firstInput.value
+        const secondInputValue = +secondInput.value
+        alert(firstInputValue + secondInputValue)
+    }
+</script>
