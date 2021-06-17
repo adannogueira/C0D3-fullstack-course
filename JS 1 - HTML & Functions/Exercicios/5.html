@@ -1,0 +1,15 @@
+<input class="inp1" type="text">
+<input class="inp2" type="text">
+<button class="generate">Gerar</button>
+<button class="submit">Enviar</button>
+<script>
+    const inp1 = document.querySelector('.inp1')
+    const inp2 = document.querySelector('.inp2')
+    const generate = document.querySelector('.generate')
+    const submit = document.querySelector('.submit')
+    const solution = (n1, n2) => () => n1 + n2
+    var sumTwo
+
+    generate.onclick = () => sumTwo = solution(+inp1.value, +inp2.value)
+    submit.onclick = () => alert(sumTwo())
+</script>

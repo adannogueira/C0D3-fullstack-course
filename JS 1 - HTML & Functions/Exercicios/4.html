@@ -1,0 +1,10 @@
+<input class="n1" type="text">
+<input class="n2" type="text">
+<button class="b1">Sum big?</button>
+<script>
+    const n1 = document.querySelector('.n1')
+    const n2 = document.querySelector('.n2')
+    const b1 = document.querySelector('.b1')
+
+    b1.onclick = () => alert(+n1.value + +n2.value > 10)
+</script>

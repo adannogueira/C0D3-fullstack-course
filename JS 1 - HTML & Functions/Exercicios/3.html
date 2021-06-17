@@ -1,0 +1,9 @@
+<input class="input" type="text">
+<button class="button">Is it big?</button>
+<script>
+    const inp = document.querySelector('.input')
+    const but = document.querySelector('.button')
+    but.onclick = () => {
+        if (+inp.value > 5) alert('BIG!')
+    }
+</script>

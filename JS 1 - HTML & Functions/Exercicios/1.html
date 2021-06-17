@@ -1,0 +1,12 @@
+<input class="input" type="text">
+<button class="submit">Divisivel por 2?</button>
+<script>
+    let input1 = document.querySelector('.input')
+    const submit1 = document.querySelector('.submit')
+    submit1.onclick = () => {
+        input1Value = +input1.value
+        if (input1Value % 2 == 0) {
+            input1.value = 0
+        }
+    }
+</script>
